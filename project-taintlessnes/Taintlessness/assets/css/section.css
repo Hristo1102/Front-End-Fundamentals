@@ -1,0 +1,49 @@
+.shout {
+	text-align: center;
+	height: 90px;
+	display: block;
+}
+.shout h3 {
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 36px;
+	color: #957964;
+}
+.shout p {
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 18px;
+	color: #666;
+	max-width: 580px;
+	margin: 0 auto;
+}
+.service {
+	margin-top: 55px;
+}
+.service:after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-image: url(../img/Splitter.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 55px;
+}
+.service .col-lg-3{
+	float: right;
+	padding-right: 0;
+}
+.service .col-lg-3 h4 {
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 18px;
+	color: #947964;
+
+}
+
+.service .col-lg-3 p {
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 13px;
+	color: #666;
+	line-height: 20px;
+	max-width: 207px;
+	max-height: 222px;
+	margin-bottom: 16px;
+}

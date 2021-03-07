@@ -1,0 +1,25 @@
+		/*Grind*/
+@import url('bootstrap.css');
+@import url('reset.css');
+@import url('owl.carousel.css');
+@import url('font-awesome.css');
+		/*General*/
+@import url('buttons.css');
+
+		/*Section*/
+@import url('header.css');
+@import url('top_navigation.css');
+@import url('slider.css');
+@import url('section.css');
+@import url('buttons.css');
+@import url('latest_work.css');
+@import url('footer.css');
+@import url('media.css');
+
+
+header,
+section,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+.quote {
+	background: #223047;
+
+}
+
+.quote h3 {
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	color: #00fff1;
+	max-width: 767px;
+	line-height: 25px; 
+	margin: 133px 200px 145px;
+}
+
+

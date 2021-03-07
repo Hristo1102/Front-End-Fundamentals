@@ -1,0 +1,91 @@
+/*Latest Movies*/
+
+.container-fluid #latest_movies h2 {
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	color: #303030;
+	text-transform: uppercase;
+}
+
+.lm:after,
+.lm1:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.lm1 {
+	float: left;
+	width: 70%;
+	background-color: #fff;
+	height: 600px;
+}
+
+.lm2 {
+	float: left;
+	width: 30%;
+	height: 600px;
+}
+
+.film {
+	position: relative;
+	width: 20%;
+	height: 120px;
+	margin: 30px 20px;
+	background: url(../imgs/hobbits.jpg) no-repeat center center;
+	background-size: cover;
+	float: left;
+}
+
+.film p {
+	position: absolute;
+	top: 130px;
+	left: 50px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.film p:hover {
+	color: #28B8D2;
+}
+
+.btn_2 {
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #28B8D2;
+	border-color: #28B8D2;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.btn_2:hover {
+	background-color: #28B8D2;
+	color: #fff;
+}
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer > div > p {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.lm2 .lm2-1 {
+	height: 200px; 
+	margin-bottom: 20px;
+	background-color: #fafafa;
+}
+
+.lm2 .lm2-2 {
+	height: 350px; 
+	margin-bottom: 20px;
+	background-color: #fafafa;
+}
+

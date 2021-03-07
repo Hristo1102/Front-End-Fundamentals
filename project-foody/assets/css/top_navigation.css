@@ -1,0 +1,104 @@
+/*Logo*/
+
+header > .wrap {
+	background-color: rgba(21,29,37,0.5);
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+header div.menu-shell {
+	height: 80px;
+}
+
+#logo {
+	display: inline-block;
+	height: 100%;
+	width: 68px;
+	position: relative;
+}
+
+#logo img {
+	width: 100%;
+	display: block;
+	height: 35px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+/*Menu*/ 
+
+header nav {
+	float: right;
+	height: inherit;
+}
+
+header nav ul:after,
+header nav ul nav:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+header nav > ul  {
+	height: inherit;
+	float: left;
+}
+
+header nav > ul li {
+	height: inherit;
+	float: left;
+	display: table;
+	padding-right: 62px;
+	position: relative;
+}
+
+header nav > ul li:after {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto 28px auto auto;
+}
+
+
+header nav > ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+header nav > ul li a:visited,
+header nav > ul li a:focus,
+header nav > ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul.social-icons li:after {
+ 	display: none;
+}
+
+header nav ul.social-icons li {
+	padding-right: 32px;
+}
+
+header nav ul.social-icons li:last-child {
+	padding: 0;
+}

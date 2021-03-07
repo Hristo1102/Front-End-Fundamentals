@@ -1,0 +1,34 @@
+/*CSS goes here*/
+
+/*font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('font-awesome.css');
+@import url('icomoon.css');
+
+/*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+/*Grid*/
+@import url('css_reset.css');
+@import url('bootstrap.css');
+
+/*General*/
+
+@import url('top_navigation.css');
+@import url('main-carousel.css');
+@import url('buttons.css');
+@import url('tx_c.css');
+@import url('about-info.css');
+@import url('quote.css');
+@import url('menu.css');
+@import url('pop_up.css');
+
+
+.container-fluid {
+	max-width: 1200px;
+	margin: 0 auto;
+	}
+
+h1 {
+	margin: 0;
+}

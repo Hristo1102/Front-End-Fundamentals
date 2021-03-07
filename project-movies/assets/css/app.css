@@ -1,0 +1,55 @@
+/*CSS goes here*/
+
+/*Font Lato : font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/*Font - Italic: font-family: 'Vesper Libre', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Vesper+Libre&display=swap');
+
+/*Font-Roboto : font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('search.css');
+
+/*Grid*/
+@import url('css_reset.css');
+@import url('bootstrap.css');
+
+/*Navigation*/
+@import url('navigation.css');
+
+/*Logo*/
+@import url('logo.css');
+
+/*Slider*/
+@import url('main-carousel.css');
+@import url('owl.carousel.css');
+@import url('small_carousel.css');
+
+/*Movies*/
+@import url('all_movies.css');
+@import url('best_movies.css');
+@import url('buttons.css');
+@import url('latest_movies.css');
+
+
+
+body {
+	background: #2b2a28;
+}
+
+.row {
+	padding: 0;
+	margin-top: 10px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #2b2a28;
+}
+
+.container-fluid {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+}

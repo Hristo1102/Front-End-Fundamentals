@@ -1,0 +1,64 @@
+/*Buttons*/
+
+/*Sizing*/
+.btn_xlg {
+	min-width: 170px;
+}
+.btn_lg {
+	min-width: 170px;
+}
+.btn_md {
+	min-width: 170px;
+}
+.btn_sm {
+	min-width: 170px;
+}
+
+/*Types*/
+.btn_link:focus,
+.btn_link:visited,
+.btn_link:hover,
+.btn_link {
+	text-decoration: none;
+	padding: 9px 43px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 72px;
+}
+
+/*Effects*/
+
+.btn_inv_w {
+	position: relative;
+	transition: 0.3s;
+}
+
+.btn_inv_w:hover span{
+	color: black;
+}
+
+
+.btn_inv_w span {
+	position: relative;
+	z-index: 2;
+}
+
+.btn_inv_w:after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 0;
+	transition: 0.3s;
+	top:0;
+	left:0;
+	z-index: 1;
+	background: #fff;
+}
+
+.btn_inv_w:hover:after {
+	width: 100%;
+}

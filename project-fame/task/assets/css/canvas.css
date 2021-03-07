@@ -1,0 +1,81 @@
+header #mobile-menu-btn {
+	width: 100%;
+	height: 42px;
+}
+
+header .canvas-btn img {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 20px;
+	margin: auto;
+}
+
+header .phone-icon-holder {
+	position: relative;
+	height: 42px;
+	width: 100%;	
+}
+
+header .phone-icon img {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 20px;
+	margin: auto;
+}
+
+header #canvas-menu-frame .canvas-frame {
+	height:0px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	transition: 0.5s;
+	background: #fff;
+}
+
+header #canvas-menu-frame .canvas-frame.open {
+	height: 240px;
+}
+
+header #canvas-menu-frame .canvas-frame nav ul {
+	padding: 10px;
+}
+
+header #canvas-menu-frame .canvas-frame nav ul li {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+header #canvas-menu-frame .canvas-frame nav ul li a {
+	font-size: 16px;
+	font-family: 'ralewayregular';
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+}
+
+header #canvas-menu-frame .canvas-frame nav ul li a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0;
+	background-color: #06457c;
+	margin: 1px auto;
+	transition: 0.3s;
+}
+
+header #canvas-menu-frame .canvas-frame nav ul li a:hover,
+header #canvas-menu-frame .canvas-frame nav ul li a.visible {
+	color: #06457c;
+}
+
+header #canvas-menu-frame .canvas-frame nav ul li a:hover:after,
+header #canvas-menu-frame .canvas-frame nav ul li a.visible:after {
+	width: 110px;
+}

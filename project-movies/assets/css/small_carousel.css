@@ -1,0 +1,37 @@
+/*Small Carousel*/
+
+.slider1 .item7 {
+	background: url(../imgs/carousel.jpg) no-repeat center center;
+	height: 200px;
+	background-size: cover;
+}
+
+.slider1 .item8 {
+	background: url(../imgs/darkness.jpg) no-repeat center center;
+	height: 200px;
+	background-size: cover;
+}
+
+.slider1 .item9 {
+	background: url(../imgs/gravity.jpg) no-repeat center center;
+	height: 200px;
+	background-size: cover;
+}
+
+.slider1 .item10 {
+	background: url(../imgs/sweeney.jpg) no-repeat center center;
+	height: 200px;
+	background-size: cover;
+}
+
+.slider1 .item11 {
+	background: url(../imgs/x-men.jpg) no-repeat center center;
+	height: 200px;
+	background-size: cover;
+}
+
+.slider1 .item12 {
+	height: 200px;
+	background: url(../imgs/yoko.jpg) no-repeat center center;
+	background-size: cover;
+}
