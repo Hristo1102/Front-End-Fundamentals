@@ -1,0 +1,64 @@
+/*Buttons*/
+
+/*Best movies*/
+#btn_best_movies {
+	margin: 20px 10px;
+}
+
+#btn_best_movies .shells:after,
+#btn_best_movies .shells .items:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container-fluid #btn_best_movies .shells .items {
+	float: left;
+	width: 50%;
+}
+
+.container-fluid #btn_best_movies .shells .items.right {
+	margin-left: -20px;
+}
+
+.btn {
+	background: #fff;
+	height: 80px;
+	float: left;
+	width: 45%;
+	margin-right: 20px; 
+	text-align: center;
+}
+
+.btn p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #303030.;
+}
+
+.btn_last {
+	background: #fff;
+	height: 80px;
+	float: left;
+	width: 50%;	
+	margin: 0;
+	text-align: center;
+}
+
+.btn_last p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #303030;
+}
+
+button {
+	border: none;
+	width: 50%;
+	border-radius: 20px;
+	background-color: #28B8D2;
+	color: #fff;
+}
+
+button:hover {
+	background-color: #303030;
+}

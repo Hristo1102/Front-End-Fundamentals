@@ -1,0 +1,45 @@
+#orderway {
+	background-color: #f7f7f7;
+	height: auto;
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+#orderway .delivery ul {
+	text-align: center;
+}
+
+#orderway .delivery ul li {
+	display: inline-block;
+	margin: 0 45px;
+	position: relative;
+	vertical-align: text-top;
+}
+
+#orderway .delivery ul li h3 {
+	color: #0a4d80;
+	font-family: 'ralewaybold';
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#orderway .delivery ul li p {
+	font-family: 'ralewayregular';
+	font-size: 15px;
+}
+
+.upper-arrow,
+.bottom-arrow {
+	position: absolute;
+	left: 100%;
+}
+
+.upper-arrow {
+	top: -15px;
+}
+
+.bottom-arrow {
+	bottom: -45px;
+}

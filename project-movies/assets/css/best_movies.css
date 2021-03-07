@@ -1,0 +1,81 @@
+/*Best movies*/
+#best_movies {
+	margin: 20px 10px;
+}
+
+#best_movies .shells:after,
+#best_movies .shells .items:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.container-fluid #best_movies .shells .items {
+	float: left;
+	width: 50%;
+}
+
+.container-fluid #best_movies .shells .items.right {
+	margin-left: -20px;
+}
+
+.container-fluid #best_movies {
+	text-align: center;
+}
+
+.container-fluid #best_movies h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	color: #303030;
+	text-transform: uppercase;
+}
+
+.container-fluid #best_movies p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.container-fluid #best_movies p span {
+	font-style: italic;
+}
+
+.container-fluid #best_movies .shells .items .item-unit12 {
+	position: relative;
+	background: url('../imgs/broken_city.jpg') no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 45%;
+	height: 300px;
+	margin-right: 20px;
+}
+
+.container-fluid #best_movies .shells .items .item-unit13 {
+	position: relative;
+	background: url('../imgs/les_miserables.jpg') no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 45%;
+	height: 300px;
+	margin-right: 20px;
+}
+
+.container-fluid #best_movies .shells .items .item-unit14 {
+	position: relative;
+	background: url('../imgs/darkness.jpg') no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 45%;
+	height: 300px;
+	margin-right: 20px;
+}
+
+.container-fluid #best_movies .shells .items .item-unit15 {
+	position: relative;
+	background: url('../imgs/oblivion.jpg') no-repeat center center;
+	background-size: contain;
+	float: left;
+	width: 50%;
+	height: 300px;
+}
+

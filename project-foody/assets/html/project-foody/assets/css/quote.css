@@ -1,0 +1,20 @@
+#quote {
+	height: 481px;
+	background: url('../imgs/burger.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 241px 0 0 0;
+	margin-bottom: 67px;
+	color: #fff;
+}
+
+#quote h3, {
+	letter-spacing: 5px;
+	font-family: 'Lobster', cursive;
+	font-size: 14px;
+}
+
+#quote h4, {
+	letter-spacing: 1px;
+	font-family: 'Lobster', cursive;
+	font-size: 10px;
+}

@@ -1,0 +1,32 @@
+/*Text*/
+
+.tx_c {
+	text-align: center;
+}
+
+/*Colors*/
+
+.dark_bg {
+	background-color: #151d25;
+}
+
+.light_bg {
+	background-color: #fff;
+}
+
+/*Color Text*/
+
+
+.light_tx:hover,
+.light_tx:visited,
+.light_tx:focus,
+.light_tx {
+	color: #fff;
+}
+
+.dark_tx:visited,
+.dark_tx:hover,
+.dark_tx:focus,
+.dark_tx {
+	color: #151d25;
+}

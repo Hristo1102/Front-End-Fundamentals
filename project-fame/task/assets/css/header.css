@@ -1,0 +1,102 @@
+header {
+	height: 123px;
+	width: 100%;
+	padding: 40px 115px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+
+header .container-fluid {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/*Logo*/
+
+header #logo img {
+	height: 45px;
+	width: 230px;
+}
+
+/*Nav*/
+header .menu-holder nav ul {
+	text-align: center;
+	margin-top: 10px;
+}
+
+header .menu-holder nav ul li {
+	display: inline-block;
+	height: 20px;
+	border-right: 1px solid #000;
+	padding: 0 9px;
+}
+
+header .menu-holder nav ul li:last-child {
+	border-style: none;
+}
+
+header .menu-holder nav ul li a {
+	font-family: 'ralewayregular';	
+	size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+	color: #000;
+}
+
+header .menu-holder nav ul li a:after {
+	content: '';
+	display: block;
+	height: 2px;
+	width: 0px;
+	background-color: #064e81;
+	margin: 7px auto;
+	transition: 0.2s;
+}
+
+header .menu-holder nav ul li a:hover,
+header .menu-holder nav ul li a.visible {
+	color: #064e81;
+}
+
+header .menu-holder nav ul li a:hover:after,
+header .menu-holder nav ul li a.visible:after {
+	width: 100%;
+}
+
+/*Phone number*/
+
+.phone {
+	height: 123px;
+	padding-right: 16px;
+	display: table;
+}
+
+header .phone {
+	text-align: right;
+	position: relative;
+
+	top: -8px;
+	right: 0;
+	bottom: 0px;
+	left: 0;
+}
+
+header .phone p a {
+	font-family: 'ralewaybold';
+	font-size: 30px;
+	color: #064e81;
+	text-decoration: none;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 1320px) {
+	header {
+		padding: 40px 10px;
+	}
+}

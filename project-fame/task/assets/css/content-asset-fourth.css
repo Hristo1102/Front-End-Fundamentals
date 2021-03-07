@@ -1,0 +1,58 @@
+#order-now {
+	min-height: 240px;
+	background-image: url('../img/order.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+}
+
+#order-now #backg-h {
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	padding: 55px 20px;
+	min-height: 240px;
+}
+
+#order-now .ready-to h2 {
+	font-family: 'ralewaybold';
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+
+
+#order-now .order-btns a {
+	width: 269px;
+	display: inline-block;
+;
+	font-family: 'ralewaybold';
+	font-size: 18px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 15px 25px;
+	margin: 10px;
+	text-transform: uppercase;
+	background-color: transparent;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: 0.3s;	
+}
+
+#order-now .order-btns a:nth-child(2n) {
+	background: #ff6600;
+	border-style: none;
+}
+
+#order-now .order-btns a:hover {
+	background-color:#ff6600;
+	border: none;
+}
+
+#order-now .order-btns a:nth-child(2n):hover {
+	background-color: transparent;
+	border: 2px solid #fff;
+}

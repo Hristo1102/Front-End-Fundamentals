@@ -1,0 +1,141 @@
+/*POP UP*/
+
+ @import url('https://fonts.googleapis.com/css?family=Mandali&display=swap');
+ 
+ @keyframes appear {
+ 	0% {
+ 		top: -60px;
+ 		opacity: 0;
+ 	}
+ 	100% {
+ 		top: 0%;
+ 		opacity: 1;
+ 	}
+
+ }
+
+.modal {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	background: #373f47;
+	z-index: 10;
+}
+
+.modal-shell {
+	max-width: 650px;
+	max-height: 450px;
+	position: absolute;
+	left: 0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #fff;
+	border-radius: 8px 8px 8px 8px;
+	box-sizing: border-box;
+	box-shadow: 0 14px 45px -4px rgba(0,0,0,0.7);
+	padding-bottom: 100px;
+	animation: appear 0.5s;
+}
+
+
+.modal-shell > div {
+	font-family: 'Mandali', sans-serif;
+	padding: 26px 40px;
+}
+
+.modal-shell h4 {
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #4F4F4F;
+}
+
+.modal-shell p {
+	line-height: 28px;
+}
+
+.modal-shell > button {
+	background: none;
+	padding: 0;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	position: absolute;
+	right: 26px;
+	top: 26px;
+	transform: rotate(0deg);
+	transition: 0.3;
+	cursor: pointer;
+}
+
+.modal-shell > button span {
+	display: block;
+	width: 35px;
+	height: 4px;
+	background: #333;
+	position: absolute;
+	bottom: 16px;
+}
+
+.modal-shell > button > span:first-child {
+	left: 0;
+	transition: 0.3s;
+	transform: rotate(45deg);
+}
+
+.modal-shell > button:hover > span:first-child {
+	transform: rotate(135deg);
+}
+
+.modal-shell > button > span:last-child {
+	right: 0;
+	transition: 0.6s;
+	transform: rotate(135deg);
+}
+
+.modal-shell > button:hover > span:last-child {
+	transform: rotate(225deg);
+}
+
+.modal-shell .footer {
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+}
+
+.modal-shell .footer button {
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	padding: 8px 16px;
+	text-transform: uppercase;
+	color: #fff;
+	border-radius: 3px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.btn_blue {
+	background: #088DEA;
+}
+.btn_blue:hover {
+	background: #0A63A2;
+ }
+ .btn_green {
+ 	background: #08EA7D;
+ }
+ .btn_green:hover {
+ 	background: green;
+ }

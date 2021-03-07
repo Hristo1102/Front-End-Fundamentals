@@ -1,0 +1,60 @@
+header > .wrap {
+	margin-bottom: 27px;
+}
+header .top-navigation .controls {
+	display: none;
+}
+.logo a {
+	text-decoration: none;
+}
+.form-field{
+	float: right;
+}
+.logo {
+	display: inline-block;
+	width: 50%;
+}
+.Search-form {
+	display: block;
+	width: 50%;
+	float: right;
+}
+.logo h1{
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 25px;
+	color: #947964;
+	margin: 41px auto auto 0;
+	max-width: 210px;
+	text-transform: uppercase;
+}
+
+.logo p{
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 12px;
+	color: #999;
+}
+.Search-form form {
+	margin: 41px 0 auto auto;
+}
+.form-field input{
+	padding: 0 0 0 5px;
+	width: 244px;
+	height: 35px;
+	background-color: #e6dfd9; 
+	border-radius: 5px;
+	font-size: 12px;
+	background: #e6dfd9;
+	border: none;
+}
+
+.form-field button {
+	background-color: #e95a3c;
+	color: #fff;
+	width: 69px;
+	height: 35px;
+	border-radius: 6px;
+	text-transform: uppercase;
+	margin: auto auto 0 auto;
+	font-size: 8px;
+	border: none;
+}

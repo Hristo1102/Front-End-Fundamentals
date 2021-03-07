@@ -1,0 +1,265 @@
+/*All movies*/
+#movies {
+	margin: 20px 10px;
+}
+
+#movies .shells:after,
+#movies .shells .items:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#movies .shells .items {
+	float: left;
+	width: 50%;
+}
+
+#movies .shells .items .item-unit > p,
+#movies .shells .items .item-unit1 > p,
+#movies .shells .items .item-unit2 > p,
+#movies .shells .items .item-unit3 > p,
+#movies .shells .items .item-unit4 > p,
+#movies .shells .items .item-unit5 > p,
+#movies .shells .items .item-unit6 > p,
+#movies .shells .items .item-unit7 > p,
+#movies .shells .items .item-unit8 > p,
+#movies .shells .items .item-unit9 > p,
+#movies .shells .items .item-unit10 > p,
+#movies .shells .items .item-unit11 > p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#movies .shells .items .item-unit p span,
+#movies .shells .items .item-unit1 p span,
+#movies .shells .items .item-unit2 p span,
+#movies .shells .items .item-unit3 p span,
+#movies .shells .items .item-unit4 p span,
+#movies .shells .items .item-unit5 p span,
+#movies .shells .items .item-unit6 p span,
+#movies .shells .items .item-unit7 p span,
+#movies .shells .items .item-unit8 p span,
+#movies .shells .items .item-unit9 p span,
+#movies .shells .items .item-unit10 p span,
+#movies .shells .items .item-unit11 p span {
+	text-decoration: none;
+	font-family: 'Vesper Libre', serif;
+	font-style: italic;
+}
+
+#movies .shells .items .item-unit {
+	position: relative;
+	background: url('../imgs/transformers.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit:before,
+#movies .shells .items .item-unit1:before,
+#movies .shells .items .item-unit2:before,
+#movies .shells .items .item-unit3:before,
+#movies .shells .items .item-unit4:before,
+#movies .shells .items .item-unit5:before,
+#movies .shells .items .item-unit6:before,
+#movies .shells .items .item-unit7:before,
+#movies .shells .items .item-unit8:before,
+#movies .shells .items .item-unit9:before,
+#movies .shells .items .item-unit10:before,
+#movies .shells .items .item-unit11:before {
+	content: '';
+  	display: inline-block;
+ 	height: 100%;
+  	width: 100%;
+  	position: absolute;
+  	background-color: rgba(0,225,225,0.3);
+}
+
+#movies .shells .items .item-unit:hover:before,
+#movies .shells .items .item-unit1:hover:before,
+#movies .shells .items .item-unit2:hover:before,
+#movies .shells .items .item-unit3:hover:before,
+#movies .shells .items .item-unit4:hover:before,
+#movies .shells .items .item-unit5:hover:before,
+#movies .shells .items .item-unit6:hover:before,
+#movies .shells .items .item-unit7:hover:before,
+#movies .shells .items .item-unit8:hover:before,
+#movies .shells .items .item-unit9:hover:before,
+#movies .shells .items .item-unit10:hover:before,
+#movies .shells .items .item-unit11:hover:before {
+	display: none;
+}
+
+
+#movies .shells .items .item-unit1 {
+	position: relative;
+	background: url('../imgs/black_rock.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit2 {
+	position: relative;
+	background: url('../imgs/dragon_lore.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit3 {
+	position: relative;
+	background: url('../imgs/safe_haven.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit4 {
+	position: relative;
+	background: url('../imgs/olypmpus.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit5 {
+	position: relative;
+	background: url('../imgs/nmbersstation.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit6 {
+	position: relative;
+	background: url('../imgs/iron_man.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit7 {
+	position: relative;
+	background: url('../imgs/huntsman.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit8 {
+	position: relative;
+	background: url('../imgs/oblivion.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit9 {
+	position: relative;
+	background: url('../imgs/elysium.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit10 {
+	position: relative;
+	background: url('../imgs/jungle.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
+
+#movies .shells .items .item-unit11 {
+	position: relative;
+	background: url('../imgs/huntsman.jpg') no-repeat center center;
+	background-size: cover;
+	height: 200px;
+	float: left;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	display: table;
+}
